@@ -64,7 +64,7 @@ export function Game() {
         return () => {
             // TODO: Dismiss toast
         };
-    }, []);
+    }, [country, guesses]);
 
     return (
         <div className="flex-grow flex flex-col mx-2">

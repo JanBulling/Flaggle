@@ -1,4 +1,4 @@
-import { DateTime, Interval } from "luxon";
+import { DateTime } from "luxon";
 import { useMemo } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { Guess } from "../models/guess";
